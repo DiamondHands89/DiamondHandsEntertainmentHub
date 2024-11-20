@@ -1,0 +1,149 @@
+.orbitron-SciFiFont {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+body {
+    background-color: black;
+    font-family: "Orbitron", sans-serif;
+}
+
+
+/* Header for all pages*/
+.Navbar {
+    display: flex;
+    border: none;
+    height: auto;
+}
+
+.Dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.Mainbtns {
+    font-size: 15px;
+    color: black;
+    background-color: aqua;
+    margin: 5px;
+    border: none;
+    border-radius: 3px;
+
+}
+
+.Dropcontent {
+    display: none;
+    padding: 5px;
+    z-index: 1;
+}
+
+.Dropcontent a {
+    color: aqua;
+}
+
+.Dropcontent a:hover {
+    background-color: purple;
+}
+
+.Dropdown:hover .Dropcontent {
+    display: block;
+}
+
+.User {
+    margin-left: auto;
+    margin-bottom: 20px;
+}
+
+.Formcontainer {
+    display: none;
+    border: solid purple;
+    padding: 10px;
+    width: 300px;
+    margin-top: 10px;
+}
+
+.Formcontainer input, .Formcontainer .Submitbtn{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+.Submitbtn {
+    font-size: 15px;
+    color: whitesmoke;
+    background-color: aqua;
+    margin: 5px 0;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.Header {
+    border: 7px solid purple;
+    border-radius: 30px;
+    display: flex;
+}
+
+
+
+.Title {
+    border: none;
+    color: aqua;
+    font-size: 16px;
+    padding-top: 15px;
+}
+
+.Logo {
+    border: none;
+    width: 20%;
+    margin-left: auto;
+}
+
+#Diamondlogo {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+/* End Header for all pages*/
+
+
+
+/* All Pages Usage Table */
+.Usage {
+    border: 7px solid purple;
+    border-radius: 30px;
+    color: aqua;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/* All Pages Usage Table End */
+
+
+/* All Pages Contact Us Form */
+.ContactForm {
+    border: 7px solid purple;
+    border-radius: 30px;
+    color: aqua;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+/* All Pages Contact Us Form End */
+
+
+/*
+CSS Requirements
+Make use of inline, internal, and external styling.
+Use five different CSS selectors.
+Use colors that complement each other.
+Coolors is one of many resources that can help you find a color palette.
+Use Flexbox and/or the Bootstrap Grid.
+Use at least two CSS animations.
+*/
