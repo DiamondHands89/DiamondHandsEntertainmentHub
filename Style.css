@@ -135,9 +135,46 @@ body {
     margin-top: 20px;
 }
 
-.GifFile1 {
-    
+@keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
 }
+
+.GameImage {
+    width: 100%;
+    animation: transform 4s linear;
+}
+
+.GameImage:hover {
+    animation: rotate 4s linear;
+    animation-delay: 2s;
+}
+
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+.SocialImage {
+    width: 100%;
+    animation: bounce 2s infinite;
+    animation-delay: 2s;
+}
+
+.CommunitySlidesContainer:hover .SocialImage {
+    animation: bounce 2s infinite;
+    animation-delay: 2s;
+}
+
+
 /*  Home Page Main Content End  */
 
 
