@@ -8,6 +8,7 @@
 body {
     background-color: black;
     font-family: "Orbitron", sans-serif;
+    background-image: url("https://i.pinimg.com/originals/c1/83/1a/c1831a60ff791e725a254b6490cd61f5.gif");
 }
 
 
@@ -58,7 +59,8 @@ body {
 
 .Formcontainer {
     display: none;
-    border: solid purple;
+    border: 5px solid purple;
+    border-radius: 30px;
     padding: 10px;
     width: 300px;
     margin-top: 10px;
@@ -82,18 +84,20 @@ body {
 }
 
 .Header {
-    border: 7px solid purple;
+    border: 5px solid purple;
     border-radius: 30px;
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 20px 20px 20px;
 }
-
 
 
 .Title {
     border: none;
     color: aqua;
-    font-size: 16px;
-    padding-top: 15px;
+    font-size: 15px;
+    padding-top: 25px;
 }
 
 .Logo {
@@ -111,27 +115,73 @@ body {
 
 /* End Header for all pages*/
 
-
-
-/* All Pages Usage Table */
-.Usage {
-    border: 7px solid purple;
+/*  Home Page Main Content   */
+.HOverview {
+    border: 5px solid purple;
     border-radius: 30px;
     color: aqua;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: min-content;
+    padding: 5px 20px 20px 20px;
+}
+
+.HMedia {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.GifFile1 {
+    
+}
+/*  Home Page Main Content End  */
+
+
+
+
+
+/* All Pages Usage Table */
+.Usage {
+    border: 5px solid purple;
+    border-radius: 30px;
+    color: aqua;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: min-content;
+    padding: 5px 20px 20px 20px;
+}
+
+.Usetable {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Usetable th, .Usetable td {
+    border: 1px solid whitesmoke;
+    padding: 8px;
+    text-align: left;
 }
 /* All Pages Usage Table End */
 
 
 /* All Pages Contact Us Form */
 .ContactForm {
-    border: 7px solid purple;
+    border: 5px solid purple;
     border-radius: 30px;
     color: aqua;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: min-content;
+    padding: 5px 20px 20px 20px;
 }
 
 
